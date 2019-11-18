@@ -18,4 +18,14 @@ The sample has two projects which mainly contains an `ITemplateLogService` and a
 
 1. Clone this repository and open the solution with Visual Studio;
 
-2. Copy the directory path;
+2. Copy the directory path. For example, in my computer it is '*G:\Code Repos\LeaFrock\ABC.Template*';
+
+3. Open the **CMD** of Windows, and `CD` into the directory;
+
+4. Execute the command line, `dotnet new -i .\`. Then you'll see that the template is installed;
+
+5. Create the directory which is the path of your new solution, such as '*G:\Code Repos\TemplateTest*'. And `CD` into it with **CMD**.
+
+6. Execute the command line, `dotnet new abctpl -n Exception`. Then you'll see that new solution is created.
+
+7. To uninstall the template, use the command line, `dotnet new -u <AbsolutePathOfTemplate>`.
