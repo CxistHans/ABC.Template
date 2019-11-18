@@ -22,10 +22,16 @@ The sample has two projects which mainly contains an `ITemplateLogService` and a
 
 3. Open the **CMD** of Windows, and `CD` into the directory;
 
+![avatar](https://github.com/LeaFrock/ABC.Template/blob/master/ScreenShots/2.png)
+
 4. Execute the command line, `dotnet new -i .\`. Then you'll see that the template is installed;
+
+![avatar](https://github.com/LeaFrock/ABC.Template/blob/master/ScreenShots/4.png)
 
 5. Create the directory which is the path of your new solution, such as '*G:\Code Repos\TemplateTest*'. And `CD` into it with **CMD**.
 
 6. Execute the command line, `dotnet new abctpl -n Exception`. Then you'll see that new solution is created.
 
-7. To uninstall the template, use the command line, `dotnet new -u <AbsolutePathOfTemplate>`.
+![avatar](https://github.com/LeaFrock/ABC.Template/blob/master/ScreenShots/6.png)
+
+7. To uninstall the template, use the command line, `dotnet new -u <AbsolutePathOfTemplate>`. For me, it's `dotnet new -u "G:\Code Repos\LeaFrock\ABC.Template"`.
