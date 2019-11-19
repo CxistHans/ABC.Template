@@ -1,12 +1,13 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "LeaFrock",
-  "classifications": ["TemplateSample"],
+  "classifications": [
+    "TemplateSample"
+  ],
   "groupIdentity": "ABC",
   "identity": "ABC001",
-  "name": "ABC Template",
+  "name": "ABC.Template",
   "placeholderFilename": "-.-",
-  //"preferNameDirectory": true,
   "shortName": "abctpl",
   "sourceName": "Template",
   "sources": [
@@ -16,7 +17,6 @@
       "modifiers": [
         {
           "exclude": [
-            // .gitginore include would be nice
             ".template.config/**",
             ".template.config/**/*",
             "**/[Bb]in/**",
@@ -28,15 +28,13 @@
             "**/.vs/**",
             "**/packages/**",
             "**/*.DS_Store",
-            "**/.DS_Store",
-            "**/.png"
+            "**/.DS_Store"
           ]
         }
       ]
     }
   ],
   "tags": {
-    "language": "C#",
-    "type": "solution"
+    "language": "C#"
   }
 }
