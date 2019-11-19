@@ -23,7 +23,7 @@ The sample has two projects which mainly contains an `ITemplateLogService` and a
 3. Open the **CMD** of Windows, and `CD` into the directory;
 ![avatar](https://github.com/LeaFrock/ABC.Template/blob/master/ScreenShots/3.png)
 
-4. Execute the command line, `dotnet new -i .\`. Then you'll see that the template is installed;
+4. Execute the command line, `dotnet new -i ./`. Then you'll see that the template is installed;
 ![avatar](https://github.com/LeaFrock/ABC.Template/blob/master/ScreenShots/4.png)
 
 5. Create the directory which is the path of your new solution, such as '*G:\Code Repos\TemplateTest*'. And `CD` into it with **CMD**.
